@@ -25,6 +25,7 @@ h1 {
 
 body {
     background-color: gainsboro;
+    margin: 0;
 }
 
 .avatar {
@@ -33,17 +34,14 @@ body {
     height: 50%;
 }
 
-h2 {
+h2, h4, h5 {
     height: 20px;
     margin-bottom: 0;
     padding: 10px 10px;
+    font-size: 20px;
 }
 
-h3 {
-    padding: 10px 10px;
-}
-
-h4 {
+h3, h4, h5 {
     padding: 10px 10px;
 }
 
@@ -97,23 +95,19 @@ hr {
     height: 100%;
 }
 
-.work-img2 {
-    width: 50%;
-    height: 50%;
-    display: flex;
-    flex-wrap: wrap;
-    padding: 0 0 0 10px;
-    
+.work-img2, .work-img3, .work-img4, .work-img5 {
+    width: 47%;
+    height: 100%;
 }
 
-.work-img:hover, .work-img2:hover {
+
+
+.work-img:hover, .work-img2:hover, .work-img3:hover, .work-img4:hover, .work-img5:hover {
     opacity: 60%;
     
 }
 
-.study-guide-text {
-    position: absolute;
-    top: 10%;
+.study-guide-text {  
     left: 5px;
     font-weight: bold;
     text-align: center;
@@ -126,9 +120,7 @@ hr {
     flex-wrap: wrap;
 }
 
-.horiseon-text {
-    position: absolute;
-    text-align: center;
+.horiseon-text, .project-3, .project-4, .project-5 {
     left: 30px;
     font-weight: bold;
     font-size: 10px;
@@ -140,7 +132,7 @@ hr {
     flex-wrap: wrap;
 }
 
-.study-guide-container {
+.StudyGuide {
     position: relative;
     width: 50%;
     height: 50%;
@@ -148,10 +140,17 @@ hr {
     margin-left: 10px;
 }
 
-.horiseon-container {
-    position: relative;
+.SmallerImages {
+    display: grid;
 }
 
+.Contact {
+    color: black;
+    background-color: darkslategray;
+    height: 60px;
+    width: 100%;
+    line-height: 60px;
+}
 
     
 
