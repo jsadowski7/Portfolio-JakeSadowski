@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.header {
+    height: 60px;
+    width: 100%;
+    line-height: 60px;
+}
+
+h1 {
+    height: 40px;
+    background-color: black;
+    color: gainsboro;
+    margin-bottom: 0;
+    padding: 10px 10px;
+    
+}
+
+.content {
+    padding: 10px 10px;
+}
+
+body {
+    background-color: gainsboro;
+}
+
+.avatar {
+    position: relative;
+    width: 100%;
+    height: 50%;
+}
+
+h2 {
+    height: 20px;
+    margin-bottom: 0;
+    padding: 10px 10px;
+}
+
+h3 {
+    padding: 10px 10px;
+}
+
+h4 {
+    padding: 10px 10px;
+}
+
+p, .about-me {
+    padding: 10px 10px;
+    margin-right: 60%;
+    background-color: gainsboro;
+    border: 9px solid darkslategray;
+}
+
+.about-me {
+    margin-top: 10px;
+}
+ 
+/* Nav bar styling */
+.nav {
+    text-align: right;
+    margin: 0px;
+    height: 30px;
+    padding: 20px 0px;
+    background-color: darkslategray;
+}
+
+/* Nav bar link styling */
+.about-link, .github-link, .contact-link {
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+/* Nav bar link styling on hover */
+.about-link:hover, .github-link:hover, .contact-link:hover {
+    color: black;
+}
+
+li {
+    display: inline;
+    padding: 0px 10px;
+    text-decoration: none;
+}
+
+hr {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    
+}
+
+.work-img {
+    width: 100%;
+    height: 100%;
+}
+
+.work-img2 {
+    width: 50%;
+    height: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 0 0 10px;
+    
+}
+
+.work-img:hover, .work-img2:hover {
+    opacity: 60%;
+    
+}
+
+.study-guide-text {
+    position: absolute;
+    top: 10%;
+    left: 5px;
+    font-weight: bold;
+    text-align: center;
+    font-size: 30px;
+    background-color: black;
+    border-radius: 30px;
+    padding: 5px 5px; 
+    color: gainsboro;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.horiseon-text {
+    position: absolute;
+    text-align: center;
+    left: 30px;
+    font-weight: bold;
+    font-size: 10px;
+    background-color: black;
+    border-radius: 30px;
+    padding: 5px 5px;
+    color: gainsboro;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.study-guide-container {
+    position: relative;
+    width: 50%;
+    height: 50%;
+    float: left;
+    margin-left: 10px;
+}
+
+.horiseon-container {
+    position: relative;
+}
+
+
+    
+
+
