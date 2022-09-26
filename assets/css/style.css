@@ -95,11 +95,14 @@ hr {
     margin-bottom: 10px;
     
 }
-
+/* Image Styling */
 .selfie {
+    margin-right: 60px;
     height: 35%;
     width: 45%;
     float: right;
+   display: flex;
+   flex-wrap: wrap;
 }
 
 .work-img {
@@ -113,12 +116,13 @@ hr {
 }
 
 
-
+/* Image Hovers */
 .work-img:hover, .work-img2:hover, .work-img3:hover, .work-img4:hover, .work-img5:hover {
     opacity: 60%;
     
 }
 
+/* Text Styling */
 .study-guide-text {  
     left: 5px;
     font-weight: bold;
@@ -133,7 +137,8 @@ hr {
 }
 
 .horiseon-text, .project-3, .project-4, .project-5 {
-    left: 30px;
+    position: relative;
+    bottom: 10px;
     font-weight: bold;
     font-size: 10px;
     background-color: black;
@@ -152,10 +157,12 @@ hr {
     margin-left: 10px;
 }
 
+/* Image Grid for Work Section */
 .SmallerImages {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: repeat(2, 1fr);
+    justify-content: center;
 }
 
 .Horiseon, .Project3, .Project4, .Project5 {
@@ -163,6 +170,7 @@ hr {
     width: 200%;
 }
 
+/* Footer */
 .Contact {
     color: black;
     background-color: darkslategray;
@@ -177,6 +185,7 @@ hr {
     font-size: 20px;
     text-decoration: none;
     margin-top: 10px;
+    padding: 10px;
 }
 
     
