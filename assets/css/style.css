@@ -19,6 +19,7 @@ h1 {
     color: gainsboro;
     margin-bottom: 0;
     padding: 10px 10px;
+    text-shadow: 2px 2px darkred;
     
 }
 
@@ -44,8 +45,12 @@ h2, h4, h5 {
     margin-bottom: 0;
     padding: 10px 10px;
     font-size: 20px;
+    text-shadow: 1px 1px black;
 }
 
+h2, .work, h5 {
+    color: darkred;
+}
 h3, h4, h5 {
     padding: 10px 10px;
 }
@@ -77,6 +82,7 @@ p, .about-me {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
     text-decoration: none;
+    text-shadow: 2px 2px darkred;
 }
 
 /* Nav bar link styling on hover */
@@ -100,6 +106,7 @@ hr {
     margin-right: 60px;
     height: 35%;
     width: 45%;
+    height: auto;
     float: right;
    display: flex;
    flex-wrap: wrap;
