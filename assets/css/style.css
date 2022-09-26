@@ -8,8 +8,11 @@
     height: 60px;
     width: 100%;
     line-height: 60px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
+/* Main heading styling */
 h1 {
     height: 40px;
     background-color: black;
@@ -23,6 +26,7 @@ h1 {
     padding: 10px 10px;
 }
 
+
 body {
     background-color: gainsboro;
     margin: 0;
@@ -31,9 +35,10 @@ body {
 .avatar {
     position: relative;
     width: 100%;
-    height: 50%;
+    height: 30%;
 }
 
+/* Alt headings styling */
 h2, h4, h5 {
     height: 20px;
     margin-bottom: 0;
@@ -45,6 +50,7 @@ h3, h4, h5 {
     padding: 10px 10px;
 }
 
+/* About Me <p> styling */
 p, .about-me {
     padding: 10px 10px;
     margin-right: 60%;
@@ -88,6 +94,12 @@ hr {
     margin-top: 20px;
     margin-bottom: 10px;
     
+}
+
+.selfie {
+    height: 35%;
+    width: 45%;
+    float: right;
 }
 
 .work-img {
@@ -142,6 +154,13 @@ hr {
 
 .SmallerImages {
     display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(2, 1fr);
+}
+
+.Horiseon, .Project3, .Project4, .Project5 {
+    height: 100%;
+    width: 200%;
 }
 
 .Contact {
@@ -150,6 +169,14 @@ hr {
     height: 60px;
     width: 100%;
     line-height: 60px;
+}
+
+.contact-list {
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    margin-top: 10px;
 }
 
     
